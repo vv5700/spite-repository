@@ -23,7 +23,7 @@ def main():
     print("Circle area is:",area2)
     print("SQRT of number 5 is:", my_sqrt(5))
     print("Hypotenuse of 10 and 10 is:",hypotenuse(10,10))
-    '''
+    
 
     ##BOLEAN
     isOk = True
@@ -33,6 +33,12 @@ def main():
     print(a and b)
     print(a or b)
     print(a ^ b)
+    '''
+
+    ### IF STATEMENT
+    x = 5
+    if x>=10 and x<=20:
+        print("X inside [10,20]")    
 
     if __name__ =="__main__":
         main()
