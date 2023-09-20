@@ -1,0 +1,22 @@
+import random
+
+def main():
+    ##General random numbers
+    '''
+    toss = random.randint(1,100)#random numbers between 1 and 100
+    print(toss)
+    toss = random.randrange(1,5)#random numbers between 1 and 4
+    print(toss)
+    toss = random.random()#random.randint(0,100)/100
+    print(toss)
+    '''
+    random.seed(1)
+    toss = random.randint(1,100)
+    print(toss)
+    toss = random.randint(1,100)
+    print(toss)
+    toss = random.randint(1,100)
+    print(toss)
+
+if __name__=="__main__":
+    main()
